@@ -2,7 +2,9 @@
 從零實作出CNN (以MNIST為例)
 
 [Execution]
-nvcc -lcuda -lcublas main.cu layer.cu -o CUDA_CNN -arch=compute_50 -Wno-deprecated-gpu-targets \n
+
+nvcc -lcuda -lcublas main.cu layer.cu -o CUDA_CNN -arch=compute_50 -Wno-deprecated-gpu-targets
+
 ./CUDA_CNN
 
 [Flow Diagram]
